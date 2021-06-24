@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+        <title>Gaming Website page - Easy Toturials</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="https://logo-logos.com/wp-content/uploads/2017/06/Play_Station_Logo.png" class="logo">
+                <nav>
+                    <ul id="menuList" >
+                        <li><a href="">Game controllers</a></li>
+                        <li><a href="">VR Accessories</a></li>
+                        <li><a href="">Media Remotes</a></li>
+                        <li><a href="">Other</a></li>
+                    </ul>
+                </nav>
+                <!--<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjTYw2V4S0TmpWbz1PrxP5TKXr2u58zTXKFw&usqp=CAU" class="menu-icon" onclick="trogglemenu()">-->
+
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>PS4  V2<br> Dualshock 4 </h2>
+                    <h3>Wireless Controller for PlayStation 4</h3>
+                    <p>(Compatible/Generic)</p>
+                    <h4>$32.50</h4>
+                    <button type="button">Buy Now<img src="https://cdn.iconscout.com/icon/free/png-256/next-arrow-2340944-1956282.png"></button>
+                </div>
+                <div class="col-2">
+                    <img src="./assets/controller.png" class="controller">
+                    <div class="color-box"></div>
+                    <div class="add-btn">
+                        <img src="./assets/add.png">
+                        <p><small> add to cart</small></p>
+
+                    </div>
+                </div>
+            </div> 
+            <div class="social-links">
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/122_Facebook_F_logo_logos-512.png">
+                <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png">
+                <img src="https://turbologo.com/articles/wp-content/uploads/2019/07/twitter-bird-logo.png.webp">
+            </div>           
+
+        </div>
+        <script>
+
+            var menuList = document.getElementById("menuList"); 
+            menuList.style.maxHeight = "0px";
+            
+            function trogglemenu(){
+                if(menuList.style.maxHeight = "0px")
+            {
+                menuList.style.maxHeight = " 130px"
+            }
+        else 
+            {
+                menuList.style.maxHeight = " 0px"   
+            }
+        }
+
+
+        </script>
+    </body>
+</html>   
